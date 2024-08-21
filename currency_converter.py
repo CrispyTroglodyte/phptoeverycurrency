@@ -71,7 +71,7 @@ text_color = "#FFF8DC"  # cornsilk
 root.configure( bg = main_color )
 
 # title label
-label_title = tk.Label( root, text="PHP Currency Converter", font = ( "Lucida Handwriting", 18, "bold" ), bg = main_color, fg = text_color )
+label_title = tk.Label( root, text = "PHP Currency Converter", font = ( "Lucida Handwriting", 18, "bold" ), bg = main_color, fg = text_color )
 label_title.pack( pady = 20 )
 
 # input field
